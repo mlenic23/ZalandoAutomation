@@ -23,7 +23,7 @@ public class ZalandoHomePage {
     private By gumbDodajUKosaricu = By.xpath("//button[contains(@aria-label, 'Dodaj u košaricu')] | //span[text()='Dodaj u košaricu']/..");
     private By ikonaProfila = By.xpath("//button[@data-testid='user-account'] | //span[contains(., 'Tvoj račun')]");
     private By gumbUdiUPrijavu = By.xpath("//div[contains(@class, 'Wy3rmK')]//button | //a[contains(@href, '/login')]");
-    private By gumbKosarica = By.xpath("//a[@data-testid='cart-link']"); // Sa tvoje zadnje slike!
+    private By gumbKosarica = By.xpath("//a[@data-testid='cart-link']"); 
     private By footerLinkPovrat = By.xpath("//span[contains(text(), 'Informacije o povratu novca')]");
 
     public ZalandoHomePage(WebDriver driver) {
