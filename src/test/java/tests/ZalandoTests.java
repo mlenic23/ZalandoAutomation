@@ -40,7 +40,7 @@ public class ZalandoTests extends BaseTest {
         Thread.sleep(3000);
 
         Assert.assertTrue(driver.getCurrentUrl().contains("zalando"), "Nismo na Zalando stranici!");
-        System.out.println("Uspješno ušli na Zalando preko Googlea.");
+        System.out.println("Uspješno ušli na Zalando preko Googlea!");
     }
 
     @Test(priority = 2)
