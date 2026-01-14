@@ -28,7 +28,7 @@ Ovdje se nalazi logika samih testova i njihovo pokretanje:
     * Definira `@BeforeMethod` (pokretanje Chromea, maksimiziranje prozora, postavljanje waitova) i `@AfterMethod` (gašenje sesije preglednika).
 
 * **`ZalandoTests.java`**:
-    * Glavna testna klasa koja sadrži 10 testnih scenarija.
+    * Glavna testna klasa koja sadrži 10 testova.
     * Svaki test poziva metode iz `Pages` klasa i koristi **Assert** naredbe za provjeru rezultata.
     * Implementira **Window Handling** (upravljanje tabovima) - bot otvara novi prozor, prebacuje se na njega, provjerava URL i vraća se na početni tab.
 
