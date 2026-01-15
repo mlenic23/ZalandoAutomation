@@ -59,6 +59,10 @@ U projekt su ugrađene sljedeće dodatne tehnike:
 9.  **Test odlaska na dno stranice, odabir Instagram ikone te otvaranje Instagram profila u novom tabu.**
 10. **Test odlaska na dno stranice, odabir Facebook ikone te otvaranje Facebook profila u novom tabu.**
 
+## Rezultat testova:
+<img width="500" height="370" alt="image" src="https://github.com/user-attachments/assets/630fd818-ca94-4350-90ac-4f6afc54bf59" />
+
+
 ##  Kako pokrenuti projekt
 1. Klonirajte projekt.
 2. Otvorite projekt u **IntelliJ IDEA**.
