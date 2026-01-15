@@ -8,7 +8,7 @@ Projekt je izrađen u razvojnom okruženju **IntelliJ IDEA** koristeći **Java**
 
 Projekt je razvijen koristeći **Page Object Model (POM)** dizajn. 
 
-### 1. Pages (Elementi i Akcije)
+### 1. Pages 
 U ovom paketu nalaze se klase koje predstavljaju specifične dijelove web stranice. Svaka klasa sadrži svoje lokatore (By) i metode za interakciju:
 
 * **`ZalandoHomePage.java`**:
@@ -20,7 +20,7 @@ U ovom paketu nalaze se klase koje predstavljaju specifične dijelove web strani
     * Sadrži odvojene metode za otvaranje svake društvene mreže (`otvoriInstagram()` i `otvoriFacebook()`).
     * Implementira **JavaScriptExecutor** za precizno skrolanje do samog dna stranice.
 
-### 2. Tests (Izvođenje i Validacija)
+### 2. Tests 
 Ovdje se nalazi logika samih testova i njihovo pokretanje:
 
 * **`BaseTest.java`**:
